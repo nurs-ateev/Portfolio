@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEAM | Веб және Мобильді шешімдер</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description"
+        content="BEAM командасы: Кәсіби веб сайттар және мобильді қосымшалар. Сапалы дизайн, жылдам нәтиже.">
+    <meta name="keywords" content="BEAM team, веб сайт, сайт жасау, мобильді қосымша, IT команда, сайтқа тапсырыс">
+    <meta name="author" content="BEAM Team">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://beam-team.kz/">
+    <meta property="og:title" content="BEAM | Веб және Мобильді шешімдер">
+    <meta property="og:description" content="BEAM командасымен бизнесіңізді жаңа деңгейге көтеріңіз.">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <!-- Devicon -->
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <!-- Background Elements -->
+    <div class="ambient-background">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+    </div>
+    <div class="noise-overlay"></div>
+
+    <!-- Custom Cursor -->
+    <div class="cursor-dot" data-cursor-dot></div>
+    <div class="cursor-outline" data-cursor-outline></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <div class="logo-icon">
+                    <span class="material-symbols-outlined">bolt</span>
+                </div>
+                <span>BEAM</span>
+            </a>
+            <button class="mobile-menu-btn" aria-label="Menu">
+                <span class="material-symbols-outlined">menu</span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#hero" data-key="nav_home">Главная</a></li>
+                <li><a href="#services" data-key="nav_services">Услуги</a></li>
+                <li><a href="#portfolio" data-key="nav_works">Работы</a></li>
+                <li><a href="#stack" data-key="nav_stack">Стек</a></li>
+                <li><a href="#team" data-key="nav_team">Команда</a></li>
+                <li><a href="#contact" class="btn btn-primary sm" data-key="nav_order">Заказать</a></li>
+                <!-- Language Switcher -->
+                <li class="lang-switcher">
+                    <button class="lang-btn active" data-lang="ru">RU</button>
+                    <button class="lang-btn" data-lang="kk">KK</button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="badge">
+                    <span class="status-dot">
+                        <span class="ping"></span>
+                        <span class="dot"></span>
+                    </span>
+                    <span data-key="hero_badge">Открыт к заказам</span>
+                </div>
+                <h1>
+                    <span data-key="hero_title_prefix">Превращаем ваши</span> <br>
+                    <span class="gradient-text" data-key="hero_title_highlight">идеи</span> <span
+                        data-key="hero_title_suffix">в реальность</span>
+                </h1>
+                <p class="hero-subtitle" data-key="hero_subtitle">
+                    Качественные веб-сайты и уникальный дизайн.
+                    Готовы вывести ваш бизнес на новый уровень.
+                </p>
+                <div class="hero-actions">
+                    <a href="#contact" class="btn btn-primary">
+                        <span data-key="hero_btn_start">Начать</span>
+                        <span class="material-symbols-outlined">arrow_forward</span>
+                    </a>
+                    <a href="#portfolio" class="btn btn-outline">
+                        <span data-key="hero_btn_works">Смотреть работы</span>
+                        <span class="material-symbols-outlined">visibility</span>
+                    </a>
+                </div>
+                <div class="trust-indicators">
+                    <p data-key="hero_trust">Надежное качество • Быстрый результат</p>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="card-glass">
+                    <!-- Placeholder for Hero Image or 3D Element -->
+                    <div class="code-preview">
+                        <div class="window-controls">
+                            <span class="win-btn close"></span>
+                            <span class="win-btn minimize"></span>
+                            <span class="win-btn maximize"></span>
+                        </div>
+                        <pre><code>
+<span class="keyword">const</span> <span class="variable">team</span> = {
+  <span class="property">name</span>: <span class="string">'BEAM'</span>,
+  <span class="property">skills</span>: [<span class="string">'Web'</span>, <span class="string">'Design'</span>, <span class="string">'Mobile'</span>],
+  <span class="property">hardWorker</span>: <span class="boolean">true</span>,
+  <span class="function">create</span>: <span class="keyword">function</span>() {
+    <span class="keyword">return</span> <span class="string">"Amazing Results"</span>;
+  }
+};
+                        </code></pre>
+                    </div>
+
+                    <!-- Floating Badge -->
+                    <div class="floating-badge">
+                        <div class="icon-box">
+                            <span class="material-symbols-outlined">verified</span>
+                        </div>
+                        <div class="badge-text">
+                            <span class="stat">100%</span>
+                            <span class="label" data-key="hero_badge_label">Гарантия качества</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="section-header">
+                <h2><span data-key="services_title_prefix">Мои</span> <span class="gradient-text"
+                        data-key="services_title_highlight">Услуги</span></h2>
+                <p data-key="services_subtitle">Чем я могу помочь вашему бизнесу</p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <span class="material-symbols-outlined">devices</span>
+                    </div>
+                    <h3 data-key="service_1_title">Сайты и Приложения</h3>
+                    <p data-key="service_1_desc">Разработка веб-сайтов, веб-приложений и мобильных приложений
+                        (Android/iOS).</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <span class="material-symbols-outlined">dashboard</span>
+                    </div>
+                    <h3 data-key="service_2_title">CRM и Порталы</h3>
+                    <p data-key="service_2_desc">Создание сложных систем, Admin панелей и образовательных порталов (как
+                        Platonus).</p>
+                </div>
+                <!-- Service 3 replaced (SEO -> Diploma) -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <span class="material-symbols-outlined">school</span>
+                    </div>
+                    <h3 data-key="service_3_title">Дипломные работы</h3>
+                    <p data-key="service_3_desc">Помощь в разработке технических проектов для дипломных работ.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio-section">
+        <div class="container">
+            <div class="section-header">
+                <h2><span data-key="portfolio_title_prefix">Последние</span> <span class="gradient-text"
+                        data-key="portfolio_title_highlight">Работы</span></h2>
+                <p data-key="portfolio_subtitle">Воплощение качества и креативности</p>
+            </div>
+            <div class="portfolio-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=800&auto=format&fit=crop"
+                            alt="Admin CRM" class="placeholder-img">
+                    </div>
+                    <div class="project-info">
+                        <h3>Admin CRM System</h3>
+                        <p data-key="project_1_desc">E-commerce платформа</p>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?q=80&w=800&auto=format&fit=crop"
+                            alt="Mobile App" class="placeholder-img">
+                    </div>
+                    <div class="project-info">
+                        <h3>Food Delivery App</h3>
+                        <p data-key="project_2_desc">Система финансовой отчетности</p>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1501504905252-473c47e087f8?q=80&w=800&auto=format&fit=crop"
+                            alt="Education Portal" class="placeholder-img">
+                    </div>
+                    <div class="project-info">
+                        <h3>Education Portal</h3>
+                        <p data-key="project_3_desc">Дизайн службы доставки</p>
+                    </div>
+                </div>
+                <!-- Project 4 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1523474253046-8cd2748b5fd2?q=80&w=800&auto=format&fit=crop"
+                            alt="E-commerce" class="placeholder-img">
+                    </div>
+                    <div class="project-info">
+                        <h3>E-commerce Website</h3>
+                        <p data-key="project_1_desc">Интернет дүкен & Онлайн сауда</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tech Stack Section -->
+    <section id="stack" class="stack-section">
+        <div class="container">
+            <div class="section-header">
+                <h2><span data-key="stack_title">Технологический</span> <span class="gradient-text"
+                        data-key="stack_highlight">Стек</span></h2>
+                <p data-key="stack_subtitle">Инструменты, которые мы используем для создания шедевров</p>
+            </div>
+            <div class="stack-grid">
+                <!-- Mobile & Web -->
+                <div class="stack-card">
+                    <h3 data-key="stack_frontend">Mobile & Web</h3>
+                    <div class="tech-list">
+                        <div class="tech-item">
+                            <i class="devicon-flutter-plain colored"></i>
+                            <span>Flutter</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="devicon-react-original colored"></i>
+                            <span>React</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="devicon-nextjs-original"></i>
+                            <span>Next.js</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="devicon-typescript-plain colored"></i>
+                            <span>TypeScript</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="devicon-swift-plain colored"></i>
+                            <span>iOS (Swift)</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="devicon-kotlin-plain colored"></i>
+                            <span>Android (Kotlin)</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Backend & DB -->
+                <div class="stack-card">
+                    <h3 data-key="stack_backend">Backend & База данных</h3>
+                    <div class="tech-list">
+                        <div class="tech-item">
+                            <i class="devicon-nodejs-plain colored"></i>
+                            <span>Node.js</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="devicon-python-plain colored"></i>
+                            <span>Python / Django</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="devicon-go-original-wordmark colored"></i>
+                            <span>Go</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="devicon-postgresql-plain colored"></i>
+                            <span>PostgreSQL</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="devicon-firebase-plain colored"></i>
+                            <span>Firebase</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="devicon-mongodb-plain colored"></i>
+                            <span>MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Design -->
+                <div class="stack-card">
+                    <h3 data-key="stack_design">Дизайн</h3>
+                    <div class="tech-list">
+                        <div class="tech-item">
+                            <i class="devicon-figma-plain colored"></i>
+                            <span>Figma</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="devicon-xd-plain colored"></i>
+                            <span>Adobe XD</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="devicon-photoshop-plain colored"></i>
+                            <span>Photoshop</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="devicon-illustrator-plain colored"></i>
+                            <span>Illustrator</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="devicon-blender-original colored"></i>
+                            <span>Blender (3D)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="team-section">
+        <div class="container">
+            <div class="section-header">
+                <h2><span data-key="team_title">Наша</span> <span class="gradient-text"
+                        data-key="team_highlight">Команда</span></h2>
+                <p data-key="team_subtitle">Профессионалы своего дела</p>
+            </div>
+            <div class="team-grid">
+                <!-- Designer -->
+                <div class="team-card">
+                    <div class="member-photo">
+                        <div class="placeholder-avatar" style="background: linear-gradient(135deg, #FF6B6B, #556270);">
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h3 data-key="member_1_name">Имя Дизайнера</h3>
+                        <p class="role" data-key="member_1_role">UI/UX Дизайнер</p>
+                    </div>
+                </div>
+                <!-- Developer 1 -->
+                <div class="team-card">
+                    <div class="member-photo">
+                        <div class="placeholder-avatar" style="background: linear-gradient(135deg, #4ECDC4, #556270);">
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h3 data-key="member_2_name">Имя Разработчика</h3>
+                        <p class="role" data-key="member_2_role">Fullstack Developer</p>
+                    </div>
+                </div>
+                <!-- Developer 2 -->
+                <div class="team-card">
+                    <div class="member-photo">
+                        <div class="placeholder-avatar" style="background: linear-gradient(135deg, #C7F464, #556270);">
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h3 data-key="member_3_name">Имя Разработчика</h3>
+                        <p class="role" data-key="member_3_role">Mobile App Developer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Process Section -->
+    <section id="process" class="process-section">
+        <div class="container">
+            <div class="section-header">
+                <h2><span data-key="process_title">Как мы</span> <span class="gradient-text"
+                        data-key="process_highlight">Работаем?</span></h2>
+                <p data-key="process_subtitle">На каждом этапе мы уделяем особое внимание качеству и эффективности</p>
+            </div>
+
+            <div class="process-grid">
+                <!-- Step 1 -->
+                <div class="process-card">
+                    <div class="step-number">01</div>
+                    <div class="card-content">
+                        <h3 data-key="step_1_title">Консультация и анализ</h3>
+                        <p data-key="step_1_desc">Начинаем с обсуждения ваших потребностей и анализа проекта, чтобы
+                            понять задачи и определить оптимальные решения.</p>
+                    </div>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="process-card">
+                    <div class="step-number">02</div>
+                    <div class="card-content">
+                        <h3 data-key="step_2_title">Планирование и дизайн</h3>
+                        <p data-key="step_2_desc">Разрабатываем подробный план работы и создаем дизайн, сочетая ваше
+                            видение с лучшими практиками UX/UI.</p>
+                    </div>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="process-card">
+                    <div class="step-number">03</div>
+                    <div class="card-content">
+                        <h3 data-key="step_3_title">Разработка и тестирование</h3>
+                        <p data-key="step_3_desc">Процесс разработки ведется в соответствии с утвержденным планом, после
+                            чего продукт проходит тщательное тестирование.</p>
+                    </div>
+                </div>
+
+                <!-- Step 4 -->
+                <div class="process-card">
+                    <div class="step-number">04</div>
+                    <div class="card-content">
+                        <h3 data-key="step_4_title">Запуск и поддержка</h3>
+                        <p data-key="step_4_desc">Завершаем проект запуском, обеспечивая его стабильную работу и
+                            предлагая дальнейшую поддержку и оптимизацию.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    </section>
+
+    <!-- Calculator Section -->
+    <section id="calculator" class="calculator-section">
+        <div class="container">
+            <div class="section-header">
+                <h2><span data-key="calc_title">Рассчитайте</span> <span class="gradient-text"
+                        data-key="calc_highlight">Стоимость</span></h2>
+                <p data-key="calc_subtitle">Пройдите короткий тест и получите примерную оценку проекта</p>
+            </div>
+
+            <div class="calculator-container card-glass">
+                <div class="calc-header">
+                    <h3 id="step-title" data-key="step_1_title">Что вам нужно разработать?</h3>
+                    <div class="calc-progress">
+                        <span id="current-step">1</span> <span data-key="calc_of">из</span> <span>4</span>
+                    </div>
+                </div>
+
+                <div class="calc-body">
+                    <!-- Step 1: Project Type -->
+                    <div class="calc-step active" data-step="1">
+                        <div class="calc-grid">
+                            <label class="calc-option">
+                                <input type="radio" name="project_type" value="mobile" checked>
+                                <div class="option-card">
+                                    <span class="material-symbols-outlined">smartphone</span>
+                                    <span data-key="calc_opt_mobile">Мобильное приложение</span>
+                                    <div class="checkmark"><span class="material-symbols-outlined">check_circle</span>
+                                    </div>
+                                </div>
+                            </label>
+                            <label class="calc-option">
+                                <input type="radio" name="project_type" value="website">
+                                <div class="option-card">
+                                    <span class="material-symbols-outlined">language</span>
+                                    <span data-key="calc_opt_web">Веб-сайт</span>
+                                    <div class="checkmark"><span class="material-symbols-outlined">check_circle</span>
+                                    </div>
+                                </div>
+                            </label>
+                            <label class="calc-option">
+                                <input type="radio" name="project_type" value="crm">
+                                <div class="option-card">
+                                    <span class="material-symbols-outlined">settings_suggest</span>
+                                    <span data-key="calc_opt_crm">CRM / ERP система</span>
+                                    <div class="checkmark"><span class="material-symbols-outlined">check_circle</span>
+                                    </div>
+                                </div>
+                            </label>
+                            <label class="calc-option">
+                                <input type="radio" name="project_type" value="design">
+                                <div class="option-card">
+                                    <span class="material-symbols-outlined">brush</span>
+                                    <span data-key="calc_opt_design">Дизайн / UI/UX</span>
+                                    <div class="checkmark"><span class="material-symbols-outlined">check_circle</span>
+                                    </div>
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Step 2: Priorities -->
+                    <div class="calc-step" data-step="2">
+                        <div class="calc-list">
+                            <label class="calc-check">
+                                <input type="checkbox" name="priority" value="speed">
+                                <div class="check-card">
+                                    <div class="check-info">
+                                        <span class="material-symbols-outlined">rocket_launch</span>
+                                        <span data-key="calc_prio_speed">Быстрый запуск (MVP)</span>
+                                    </div>
+                                    <div class="simple-check"></div>
+                                </div>
+                            </label>
+                            <label class="calc-check">
+                                <input type="checkbox" name="priority" value="quality">
+                                <div class="check-card">
+                                    <div class="check-info">
+                                        <span class="material-symbols-outlined">diamond</span>
+                                        <span data-key="calc_prio_quality">Уникальный дизайн и качество</span>
+                                    </div>
+                                    <div class="simple-check"></div>
+                                </div>
+                            </label>
+                            <label class="calc-check">
+                                <input type="checkbox" name="priority" value="budget">
+                                <div class="check-card">
+                                    <div class="check-info">
+                                        <span class="material-symbols-outlined">savings</span>
+                                        <span data-key="calc_prio_budget">Оптимальный бюджет</span>
+                                    </div>
+                                    <div class="simple-check"></div>
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Step 3: Features -->
+                    <div class="calc-step" data-step="3">
+                        <div class="calc-grid-small">
+                            <label class="calc-tag">
+                                <input type="checkbox" name="features" value="admin">
+                                <span class="tag-box" data-key="feat_admin">Админ панель</span>
+                            </label>
+                            <label class="calc-tag">
+                                <input type="checkbox" name="features" value="payment">
+                                <span class="tag-box" data-key="feat_pay">Оплата на сайте</span>
+                            </label>
+                            <label class="calc-tag">
+                                <input type="checkbox" name="features" value="lang">
+                                <span class="tag-box" data-key="feat_lang">Мультиязычность</span>
+                            </label>
+                            <label class="calc-tag">
+                                <input type="checkbox" name="features" value="chat">
+                                <span class="tag-box" data-key="feat_chat">Чат / Поддержка</span>
+                            </label>
+                            <label class="calc-tag">
+                                <input type="checkbox" name="features" value="seo">
+                                <span class="tag-box" data-key="feat_seo">SEO Оптимизация</span>
+                            </label>
+                            <label class="calc-tag">
+                                <input type="checkbox" name="features" value="other">
+                                <span class="tag-box" data-key="feat_other">Другое</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Step 4: Contact -->
+                    <div class="calc-step" data-step="4">
+                        <div class="calc-form">
+                            <p data-key="calc_contact_subtitle">Оставьте номер, и мы отправим расчет в WhatsApp</p>
+                            <div class="input-group">
+                                <span class="material-symbols-outlined">call</span>
+                                <input type="tel" id="calc-phone" placeholder="+7 (705) ..." required>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="calc-footer">
+                    <button class="btn btn-outline" id="prev-step" style="display: none;">
+                        <span class="material-symbols-outlined">arrow_back</span>
+                    </button>
+                    <button class="btn btn-primary" id="next-step">
+                        <span data-key="btn_next">Продолжить</span>
+                        <span class="material-symbols-outlined">arrow_forward</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    </section>
+
+    <!-- Meeting Scheduling Section -->
+    <section id="meeting" class="meeting-section">
+        <div class="container">
+            <div class="section-header">
+                <h2><span data-key="meet_title">Обсудить</span> <span class="gradient-text"
+                        data-key="meet_highlight">Онлайн</span></h2>
+                <p data-key="meet_subtitle">Выберите удобную платформу для видеозвонка и обсуждения деталей</p>
+            </div>
+
+            <div class="meeting-grid">
+                <!-- Google Meet Card -->
+                <div class="meeting-card">
+                    <div class="meet-icon google-meet">
+                        <span class="material-symbols-outlined">video_camera_front</span>
+                    </div>
+                    <h3>Google Meet</h3>
+                    <p data-key="meet_google_desc">Удобно для браузера, без установки</p>
+                    <a href="https://meet.google.com/new" target="_blank" class="btn btn-outline full-width">
+                        <span data-key="btn_book">Запланировать</span>
+                        <span class="material-symbols-outlined">arrow_outward</span>
+                    </a>
+                </div>
+
+                <!-- Zoom Card -->
+                <div class="meeting-card">
+                    <div class="meet-icon zoom">
+                        <span class="material-symbols-outlined">videocam</span>
+                    </div>
+                    <h3>Zoom</h3>
+                    <p data-key="meet_zoom_desc">Для детальной демонстрации экрана</p>
+                    <a href="https://zoom.us/join" target="_blank" class="btn btn-outline full-width">
+                        <span data-key="btn_book">Запланировать</span>
+                        <span class="material-symbols-outlined">arrow_outward</span>
+                    </a>
+                </div>
+
+                <!-- Telegram Card -->
+                <div class="meeting-card feature-card">
+                    <div class="meet-icon telegram">
+                        <span class="material-symbols-outlined">call</span>
+                    </div>
+                    <h3>Telegram / WhatsApp</h3>
+                    <p data-key="meet_tg_desc">Быстрый созвон прямо сейчас</p>
+                    <a href="https://t.me/your_username" target="_blank" class="btn btn-primary full-width">
+                        <span data-key="btn_call_now">Позвонить</span>
+                        <span class="material-symbols-outlined">call</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container contact-container">
+            <div class="contact-text">
+                <h2><span data-key="contact_title_prefix">Обсудим</span> <br><span class="gradient-text"
+                        data-key="contact_title_highlight">проект</span></h2>
+                <p data-key="contact_desc">Заполните форму, и я свяжусь с вами в ближайшее время.</p>
+                <div class="contact-methods">
+                    <div class="method">
+                        <span class="material-symbols-outlined">mail</span>
+                        <span>beamdigitalteam@gmail.com</span>
+                    </div>
+                    <div class="method">
+                        <span class="material-symbols-outlined">call</span>
+                        <a href="https://wa.me/77058066040"
+                            style="color: inherit; text-decoration: none;">+7(705)-806-60-40</a>
+                    </div>
+                </div>
+            </div>
+            <form class="contact-form" id="contact-form" action="https://formsubmit.co/beamdigitalteam@gmail.com"
+                method="POST">
+                <!-- Data for FormSubmit -->
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_template" value="table">
+                <input type="hidden" name="_subject" value="New Lead from BEAM Website!">
+                <input type="hidden" name="_next" value="https://beam-digital-team.web.app/">
+
+                <div class="form-group">
+                    <label data-key="contact_form_name">Ваше имя</label>
+                    <input type="text" name="name" id="contact-name" data-ph-key="contact_form_ph_name"
+                        placeholder="Тимур" required>
+                </div>
+                <div class="form-group">
+                    <label data-key="contact_form_contact">Номер телефона или Email</label>
+                    <input type="text" name="contact" id="contact-phone" placeholder="+7 700 ..." required>
+                </div>
+                <div class="form-group">
+                    <label data-key="contact_form_msg">Сообщение</label>
+                    <textarea rows="4" name="message" id="contact-message" data-ph-key="contact_form_ph_msg"
+                        placeholder="Мне нужен сайт..." required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary" data-key="contact_btn">Отправить</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <h3>BEAM</h3>
+                <p data-key="footer_text">Свяжитесь со мной, создадим отличный проект вместе.</p>
+            </div>
+            <div class="footer-social">
+                <!-- Instagram -->
+                <a href="https://www.instagram.com/nurtas_ateev?igsh=dXNlbm1yajhqMmZw" target="_blank"
+                    aria-label="Instagram">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="currentColor">
+                        <path
+                            d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                    </svg>
+                </a>
+                <!-- Telegram -->
+                <a href="https://t.me/nurtas_ateev" target="_blank" aria-label="Telegram">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="currentColor">
+                        <path
+                            d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z" />
+                    </svg>
+                </a>
+                <!-- GitHub -->
+                <a href="https://github.com/nurs-ateev" target="_blank" aria-label="GitHub">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="currentColor">
+                        <path
+                            d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                    </svg>
+                </a>
+                <!-- WhatsApp -->
+                <a href="https://wa.me/77058066040" target="_blank" aria-label="WhatsApp">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="currentColor">
+                        <path
+                            d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p data-key="footer_rights">&copy; 2025 BEAM Team. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
